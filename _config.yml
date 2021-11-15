@@ -108,18 +108,16 @@ header:
 
 home_style:  'background-image' # background-image (default), "background-color", "particles-bg", "video-bg"
 
-first_name: Patrick
-last_name: Johansson
+first_name: Mus
+last_name: Benziane
 email: adlard@example.com
-phone: +123 654 78900
-address: France, Paris.
+phone: 
+address: France, Grenoble.
 freelance_hire: true
 professions: 
-  - photographer
-  - blogger
-  - web developer
-  - freelancer
-  - photographer
+  - Geophysicist 
+  - Young Researcher
+
 author_description: "<strong>Hello, I’m a Patrick</strong>, web-developer based on Paris. <br> I have rich experience in web site design &amp; building <br> and customization. Also I am good at <strong>html, css, <br> wordpress, php, jquery, bootstrap.</strong>"
 social_link:
   - name: download

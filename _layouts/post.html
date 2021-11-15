@@ -1,0 +1,108 @@
+---
+layout: default
+---
+<!--
+	Container
+-->
+<div class="container">
+	
+	<!-- 
+		Card - Blog
+	-->
+	<div class="card-inner active" id="blog-card">
+		<div class="row card-container">
+				
+			<!--
+				Card Wrap
+			-->
+			<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+				
+				<!-- Blog Image -->
+				<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url('{{ "images/blog/blog1-inner.jpg" | relative_url }}');"></div>
+				
+				<!--
+					Inner Top
+				-->
+				<div class="content inner-top">
+					<div class="row">
+						<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+							<div class="title-bg">Blog Post</div>
+						</div>
+					</div>
+				</div>
+
+				<!--
+					Blog Single
+				-->
+				<div class="content blog-single">
+
+					<!-- content -->
+					<div class="row">
+						<article class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+							{% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+							{% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+							{% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+							{% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+						
+							<div class="post-box card-box">
+
+								<!-- blog detail -->
+								<h1>{{ page.title | escape }}</h1>						
+								<div class="blog-detail">Posted {{ page.date | date: "%B %d %Y"}}</div> 
+
+								<!-- blog content -->
+								<div class="blog-content" itemprop="articleBody">
+									{{ content }}
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<div class="row">
+						<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+							<!-- title -->
+							<div class="title"><span>Post</span> Comments</div>
+						</div>
+					</div>
+
+					<!-- comments -->
+					<div class="row">
+						<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+						{% if site.comments.provider and page.comments %}
+							{% include comments.html %}
+						{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 
+		Lines Grid
+	-->
+	<div class="lines-grid">
+		<div class="row">
+			<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3"></div>
+			<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+				<div class="lines">
+					<div class="line-1"></div>
+					<div class="line-2" style="animation-delay: 10s;"></div>
+				</div>
+			</div>
+			<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+				<div class="lines">
+					<div class="line-1"></div>
+				</div>
+			</div>
+			<div class="col col-m-0 col-t-0 col-d-0 col-d-lg-3">
+				<div class="lines">
+					<div class="line-1"></div>
+					<div class="line-2" style="animation-delay: 0s;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+

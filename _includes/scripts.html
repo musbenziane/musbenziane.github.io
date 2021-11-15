@@ -1,0 +1,32 @@
+
+
+	<!--
+		jQuery Scripts
+	-->
+	<script src="{{ 'js/jquery.min.js' | relative_url }}"></script>
+	<script src="{{ 'js/jquery.validate.js' | relative_url }}"></script>
+	<script src="{{ 'js/jquery.magnific-popup.js' | relative_url }}"></script>
+	<script src="{{ 'js/imagesloaded.pkgd.js' | relative_url }}"></script>
+	<script src="{{ 'js/masonry.pkgd.js' | relative_url }}"></script>
+	<script src="{{ 'js/masonry-filter.js' | relative_url }}"></script>
+	<script src="{{ 'js/simplebar.js' | relative_url }}"></script>
+	<script src="{{ 'js/typed.js' | relative_url }}"></script>
+	{%- if site.home_style == 'video-bg' -%}
+	<script src="{{ 'js/jquery.mb.YTPlayer.js' | relative_url }}"></script>
+	{%- endif -%}
+
+	{%- if site.home_style == 'particles-bg' -%}
+	<script src="{{ 'js/particles.js' | relative_url }}"></script>
+	{%- endif -%}
+	<!--
+		Google map api
+	-->
+	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	
+	<!--
+		Main Scripts
+	-->
+	<script src="{{ 'js/scripts.js' | relative_url }}"></script>
+	{%- if site.home_style == 'particles-bg' -%}
+	<script src="{{ 'js/particles-setting.js' | relative_url }}"></script>
+	{%- endif -%}

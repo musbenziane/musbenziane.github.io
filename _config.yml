@@ -1,0 +1,348 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Patrick - vCard / Resume / CV Template
+description: 'vCard & Resume Template'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://patrick-jekyll-demo.ducor.vercel.app" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+html_dir:  '' # ltl ( default ) "rtl", ltl
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+permalink: /blog/:title:output_ext
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+comments:
+  provider               : 'disqus' # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : 'patrick-ducor' # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+# google map key
+google_map_key           : 'AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s' # false (default),
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+##########################################################################
+################# seo ####################################################
+##########################################################################
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+og_image                 : '/images/profile.jpg' # Open Graph/Twitter default site image
+header: 
+  - image                 : '/images/profile.jpg'
+
+###########################################################################
+########### Home Card #####################################################
+###########################################################################
+
+home_style:  'background-image' # background-image (default), "background-color", "particles-bg", "video-bg"
+
+first_name: Patrick
+last_name: Johansson
+email: adlard@example.com
+phone: +123 654 78900
+address: France, Paris.
+freelance_hire: true
+professions: 
+  - photographer
+  - blogger
+  - web developer
+  - freelancer
+  - photographer
+author_description: "<strong>Hello, I’m a Patrick</strong>, web-developer based on Paris. <br> I have rich experience in web site design &amp; building <br> and customization. Also I am good at <strong>html, css, <br> wordpress, php, jquery, bootstrap.</strong>"
+social_link:
+  - name: download
+    text: "Download CV"
+    link: "#"
+  - name: github 
+    text: ""
+    link: "#"
+  - name: stack-overflow 
+    text: ""
+    link: "#"
+  - name: skype 
+    text: ""
+    link: "#"
+
+######### Our Services ######################
+
+our_services:
+  - name: "Web Development"
+    icon: "la la-html5"
+    description: "Modern and mobile-ready website that will help of your marketing."
+  
+  - name: "Music Writing"
+    icon: "la la-music"
+    description: "Music copying, transcription, arranging and composition Services."
+  
+  - name: "Advetising"
+    icon: "la la-bullhorn"
+    description: "Advertising services include television, radio, print, mail and web."
+  
+  - name: "Game Development"
+    icon: "la la-gamepad"
+    description: "Developing memorable and unique mobile android, ios games."
+  
+  - name: "Analytics"
+    icon: "la la-area-chart"
+    description: "Basic, advanced, custom implementations and online media analysis."
+  
+  - name: "Hosting"
+    icon: "la la-camera-retro"
+    description: "Full-day or half-day photo shoots with all necessary equipment."
+  
+  
+####### Pricing Tables ##########
+pricing_table:
+  - name: "BASIC"
+    icon: "la la-tachometer"
+    price: "22"
+    lines: >-
+        <li>Web Development</li>
+        <li>Advetising</li>
+        <li>Game Development</li>
+        <li class="disable">Music Writing</li>
+        <li class="disable">Photography <strong>new</strong></li>
+    url: "#"
+
+  - name: "PRO"
+    icon: "la la-rocket"
+    price: "48"
+    lines: >-
+          <li>Web Development</li>
+          <li>Advetising</li>
+          <li>Game Development</li>
+          <li>Music Writing</li>
+          <li>Photography <strong>new</strong></li>
+    url: "#"
+    
+########### Fun Facts ###############
+fun_facts:
+  - name: "47 Albumes Listened"
+    icon: "la la-headphones"
+  - name: "15 Awards Won"
+    icon: "la la-trophy"
+  - name: "54 Projects Completed"
+    icon: "la la-lightbulb-o"
+  - name: "10 Countries Visited"
+    icon: "la la-flag-o"
+  - name: "50+ Books Readed"
+    icon: "la la-book"
+  - name: "100 000 Lines of Code"
+    icon: "la la-code"
+  - name: "49 Satisfied Customers"
+    icon: "la la-smile-o"
+  - name: "1250 km Cycled"
+    icon: "la la-bicycle"
+
+  
+
+############ Clients ##########
+clients:
+  - image: "images/clients/client_1.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_2.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_3.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_4.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_1.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_2.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_3.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_4.png"
+    name: ""
+    url: "#"
+  
+
+#################################################
+############ resume-card ########################
+#################################################
+############ My Experience ###################
+
+my_experience:
+  - name: "Web Development"
+    date: 2013-Present <span>|</span> Facebook Inc.
+    description: "Collaborate with creative and development teams on the execution of ideas."
+  - name: "Front-end Developer"
+    date: "2011-2012 <span>|</span> Google Inc."
+    description: "Monitored technical aspects of the front-end delivery for several projects."
+  - name: "Senior Developer"
+    date: "2009-2010 <span>|</span> Abc Inc."
+    description: "Optimize website performance using latest technology."
+  
+################ My Education #############
+my_education:
+  - name: "Art University"
+    date: 2006-2008 <span>|</span> New York
+    description: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+  - name: "Programming Course"
+    date: "2005-2006 <span>|</span> Paris"
+    description: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+  - name: "Web Design Course"
+    date: "2004-2005 <span>|</span> London"
+    description: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+
+personal_skills:
+  - name: 'Communication'
+    percentage: '90'
+  
+  - name: 'Team Work'
+    percentage: '65'
+  
+  - name: 'Leadership'
+    percentage: '75'
+  
+  - name: 'Language'
+    percentage: '85'
+  
+professional_skills:
+  - name: 'WordPress'
+    percentage: '90'
+  
+  - name: 'PHP / MYSQL'
+    percentage: '65'
+  
+  - name: 'HTML / CSS / JS'
+    percentage: '95'
+  
+  - name: 'Photoshop'
+    percentage: '85'
+
+
+#############################################
+################## works-card ###############
+#############################################
+portfolio_categories:
+  - name: "Photo"
+    slug: "photo"
+  - name: "Video"
+    slug: "video"
+  - name: "Music"
+    slug: "music"
+  - name: "Design"
+    slug: "design"
+
+portfolios:
+  - category: 'photo'
+    image: 'images/works/work1.jpg'
+    name: 'Motorcycle Helmet'
+    type: image
+
+  - category: 'video'
+    image: 'images/works/work2.jpg'
+    name: 'Minimalism Shapes'
+    video: 'https://vimeo.com/97102654'
+    type: video
+
+  - category: 'design'
+    image: 'images/works/work3.jpg'
+    name: 'Mobile Application'
+    type: image
+
+  - category: 'photo'
+    image: 'images/works/work4.jpg'
+    name: 'Motorcycle Helmet'
+    type: image
+
+  - category: 'photo'
+    image: 'images/works/work1.jpg'
+    name: 'Motorcycle Helmet'
+    type: image
+
+  - category: 'photo'
+    image: 'images/works/work2.jpg'
+    name: 'Motorcycle Helmet'
+    type: image
+
+  - category: 'photo'
+    image: 'images/works/work3.jpg'
+    name: 'Motorcycle Helmet'
+    type: image
+
+  - category: 'photo'
+    image: 'images/works/work1.jpg'
+    name: 'Motorcycle Helmet'
+    type: image
+

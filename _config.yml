@@ -141,7 +141,7 @@ our_services:
     description: "Forward Modeling."
 
   - name: "Inverse Problems"
-    icon: "la la-music"
+    icon: "la la-angle-double-left"
     description: "Inverse Problems."
 
   - name: "Numerical Methods"

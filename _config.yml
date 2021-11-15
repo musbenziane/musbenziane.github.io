@@ -20,7 +20,7 @@
 title: Patrick - vCard / Resume / CV Template
 description: 'vCard & Resume Template'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://patrick-jekyll-demo.ducor.vercel.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.musbenziane.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 html_dir:  '' # ltl ( default ) "rtl", ltl

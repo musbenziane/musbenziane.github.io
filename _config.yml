@@ -137,7 +137,7 @@ social_link:
 
 our_services:
   - name: "Forward Modeling"
-    icon: "la-angle-double-right"
+    icon: "la la-angle-double-right"
     description: "Forward Modeling."
 
   - name: "Inverse Problems"

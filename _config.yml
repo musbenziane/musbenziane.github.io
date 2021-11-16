@@ -115,8 +115,9 @@ phone:
 address: France, Grenoble.
 freelance_hire: true
 professions:
-  - Geophysicist
-  - Young Researcher
+  - a Geophysicist
+  - a Young Researcher, Well, not too young
+  - Looking for a PhD studenship
 
 author_description: "<strong>Hello, I’m Mus</strong>, Working on the new website, it'll take some time."
 social_link:

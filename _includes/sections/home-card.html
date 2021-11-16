@@ -11,7 +11,7 @@
 	{%- elsif site.home_style == 'video-bg' -%}
 		<div id="video-bg" class="slide" data-property="{videoURL:'https://youtu.be/S4L8T2kFFck', containment:'#video-bg', showControls:false, autoPlay:true, loop:true, mute:false, startAt:0, opacity:1, addRaster:true, quality:'default'}"></div>
 	{%- else -%}
-		<div class="slide" style="background-image: url({{ 'images/bg.jpg' | relative_url }});"></div>	
+		<div class="slide" style="background-image: url({{ 'images/bg.jpg' | relative_url }});"></div>
 	{%- endif -%}
 	<div class="centrize full-width">
 		<div class="vertical-center">
@@ -19,15 +19,15 @@
 			<!-- Started titles -->
 			<div class="title"><span>{{ site.first_name }}</span> {{ site.last_name }}</div>
 			<div class="subtitle">
-				I am 
+				I am
 				<div class="typing-title">
 					{%- for profession in site.professions -%}
-					<p>a <strong>{{ profession }}.</strong></p>
+					<p> <strong>{{ profession }}.</strong></p>
 					{%- endfor -%}
 				</div>
 				<span class="typed-title"></span>
 			</div>
-			
+
 		</div>
 	</div>
 </div>

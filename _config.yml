@@ -145,20 +145,20 @@ our_services:
     description: "Inverse Problems."
 
   - name: "Numerical Methods"
-    icon: "la la-bullhorn"
+    icon: "la la-code"
     description: "Numerical Methods."
 
   - name: "High Performance Computing"
-    icon: "la la-gamepad"
+    icon: "la la-server"
     description: "High Performance Computing."
 
   - name: "Computational Geophysics"
-    icon: "la la-area-chart"
-    description: "Computational Science."
+    icon: "la la-globe"
+    description: "Computational Geophysics."
 
-  - name: "Science is Awesome"
-    icon: "la la-camera-retro"
-    description: "To sum up: Science is Awesome."
+  - name: "Programming"
+    icon: "la la-code-fork"
+    description: "Programming."
 
 
 ####### Pricing Tables ##########

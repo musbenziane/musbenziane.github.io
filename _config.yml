@@ -80,7 +80,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 # google map key
-google_map_key           : 'AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s' # false (default),
+google_map_key           : 'AIzaSyC2-BdO5Z7-rKWD2MWO8xxuI7jDc47JeLg' # false (default),
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -110,7 +110,7 @@ home_style:  'background-image' # background-image (default), "background-color"
 
 first_name: Mus
 last_name: Benziane
-email:
+email: me@musbenziane.com
 phone:
 address: France, Grenoble.
 freelance_hire: true
@@ -126,14 +126,15 @@ social_link:
     text: "Download CV"
     link: "#"
   - name: github
-    text: "Come over!"
+    text: ""
     link: "https://github.com/musbenziane"
-  - name:
+  - name: linkedin
     text: ""
-    link: "#"
-  - name:
+    link: "https://www.linkedin.com/in/mustaphabenz/"
+  - name: instagram
     text: ""
-    link: "#"
+    link: "https://www.instagram.com/mus_benziane/"
+
 
 ######### Our Services ######################
 

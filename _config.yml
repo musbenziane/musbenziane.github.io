@@ -276,16 +276,16 @@ personal_skills:
     percentage: '85'
 
 professional_skills:
-  - name: 'WordPress'
+  - name: 'Spectral Elements Method'
     percentage: '90'
 
-  - name: 'PHP / MYSQL'
+  - name: 'Discontinuous Galerkin Method'
     percentage: '65'
 
-  - name: 'HTML / CSS / JS'
+  - name: 'Staggered Grids Finite Difference '
     percentage: '95'
 
-  - name: 'Photoshop'
+  - name: 'Linear and Non-Linear Inverse Problems'
     percentage: '85'
 
 
@@ -293,53 +293,51 @@ professional_skills:
 ################## works-card ###############
 #############################################
 portfolio_categories:
-  - name: "Photo"
-    slug: "photo"
-  - name: "Video"
-    slug: "video"
-  - name: "Music"
-    slug: "music"
-  - name: "Design"
-    slug: "design"
+  - name: "Non-Fiction"
+    slug: "Non-Fiction"
+  - name: "Fiction"
+    slug: "Fiction"
+
+
 
 portfolios:
-  - category: 'photo'
-    image: 'images/works/work1.jpg'
-    name: 'Motorcycle Helmet'
+  - category: 'Non-Fiction'
+    image: 'images/works/hawk.jpg'
+    name: 'A Brief History of Time'
     type: image
 
-  - category: 'video'
-    image: 'images/works/work2.jpg'
-    name: 'Minimalism Shapes'
-    video: 'https://vimeo.com/97102654'
-    type: video
-
-  - category: 'design'
-    image: 'images/works/work3.jpg'
-    name: 'Mobile Application'
+  - category: 'Non-Fiction'
+    image: 'images/works/degra.jpg'
+    name: 'Astrophysics for People in a Hurry'
     type: image
 
-  - category: 'photo'
-    image: 'images/works/work4.jpg'
-    name: 'Motorcycle Helmet'
+  - category: 'Non-Fiction'
+    image: 'images/works/cherno.jpg'
+    name: 'Chernobyl 01:23:40'
     type: image
 
-  - category: 'photo'
-    image: 'images/works/work1.jpg'
-    name: 'Motorcycle Helmet'
+  - category: 'Non-Fiction'
+    image: 'images/works/dawk.jpg'
+    name: 'The Selfish Gene'
     type: image
 
-  - category: 'photo'
-    image: 'images/works/work2.jpg'
-    name: 'Motorcycle Helmet'
+
+  - category: 'Fiction'
+    image: 'images/works/1984.jpg'
+    name: '1984'
     type: image
 
-  - category: 'photo'
-    image: 'images/works/work3.jpg'
-    name: 'Motorcycle Helmet'
+  - category: 'Fiction'
+    image: 'images/works/hand1.jpg'
+    name: 'The Handmaid&#39;s Tail'
     type: image
 
-  - category: 'photo'
-    image: 'images/works/work1.jpg'
-    name: 'Motorcycle Helmet'
+  - category: 'Fiction'
+    image: 'images/works/hand2.jpg'
+    name: 'The Testaments'
+    type: image
+
+  - category: 'Fiction'
+    image: 'images/works/kafka1.jpg'
+    name: 'Metamorphosis'
     type: image

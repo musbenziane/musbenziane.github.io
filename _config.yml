@@ -116,10 +116,11 @@ address: France, Grenoble.
 freelance_hire: true
 professions:
   - a Geophysicist
-  - a Young Researcher, Well, not too young
+  - a new Researcher
   - Looking for a PhD studenship
 
-author_description: "<strong>Hello, I’m Mus</strong>, Working on the new website, it'll take some time."
+author_description: "<strong>Hello, I’m Mus</strong>, I'm currently a student at the University of Grenoble Alpes in France, doing a research Masters in Geophysics. I'm interested in computational geophysics and high performance computing.
+Currently, I am actively looking for a PhD position for next year."
 social_link:
   - name: download
     text: "Download CV"
@@ -241,39 +242,36 @@ clients:
 ############ My Experience ###################
 
 my_experience:
-  - name: "Web Development"
-    date: 2013-Present <span>|</span> Facebook Inc.
-    description: "Collaborate with creative and development teams on the execution of ideas."
-  - name: "Front-end Developer"
-    date: "2011-2012 <span>|</span> Google Inc."
-    description: "Monitored technical aspects of the front-end delivery for several projects."
-  - name: "Senior Developer"
-    date: "2009-2010 <span>|</span> Abc Inc."
-    description: "Optimize website performance using latest technology."
+  - name: "Research Intern"
+    date: May-2021-July-2021 <span>|</span> ISTerre.
+    description: "
+Seismic Elastic Modeling in Land Setting with Complex Near Surface, using the SEAM ARID model and a SEM 2D Solver."
+  - name: "Geophysicist, Engineer"
+    date: "2017-2020 <span>|</span> GeoEXplo dz."
+    description: "&#8226; Acquisition, processing, interpretation and reporting of near surface Geophysical data.
+    <br>  &#8226; Mount Sopris Instruments (MSI) well logging equipement sales, training and technical support
+     <br> &#8226; Communications, website & social media pages administration."
+
 
 ################ My Education #############
 my_education:
-  - name: "Art University"
-    date: 2006-2008 <span>|</span> New York
-    description: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
-  - name: "Programming Course"
-    date: "2005-2006 <span>|</span> Paris"
-    description: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
-  - name: "Web Design Course"
-    date: "2004-2005 <span>|</span> London"
-    description: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+  - name: "Grenoble University"
+    date: 2020-2022 <span>|</span> Grenoble
+    description: "Master's Degree (Research oriented), Geophysics and Seismology"
+  - name: "Boumerdes University"
+    date: "2014-2016 <span>|</span> Boumerdes"
+    description: "Master's Degree, Petroleum Geophysics"
 
 personal_skills:
-  - name: 'Communication'
-    percentage: '90'
+  - name: 'Fortran'
 
-  - name: 'Team Work'
-    percentage: '65'
-
-  - name: 'Leadership'
+  - name: 'OpenMP'
     percentage: '75'
 
-  - name: 'Language'
+  - name: 'Matlab & Python'
+    percentage: '65'
+
+  - name: 'Numerical Methods'
     percentage: '85'
 
 professional_skills:

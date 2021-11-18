@@ -1,9 +1,9 @@
-<!-- 
+<!--
 	Card - Resume
 -->
 <div class="card-inner" id="resume-card">
 	<div class="row card-container">
-			
+
 		<!--
 			Card Wrap
 		-->
@@ -44,7 +44,7 @@
 								<p> {{ my_experience.description }} </p>
 							</div>
 							{%- endfor -%}
-							
+
 						</div>
 					</div>
 					<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
@@ -63,7 +63,7 @@
 							<p> {{ my_education.description }} </p>
 						</div>
 						{%- endfor -%}
-						
+
 
 						</div>
 					</div>
@@ -78,49 +78,48 @@
 					<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 
 						<!-- title -->
-						<div class="title"><span>Personal</span> Skills</div>
+						<div class="title"><span>Related</span> Skills</div>
 
 						<!-- skills -->
 						<div class="skills-list card-box">
 							<ul>
 								{%- for personal_skills in site.personal_skills -%}
-								<li> 
+								<li>
 									<div class="name">{{ personal_skills.name }}</div>
-									<div class="progress">
+										<!-- <div class="progress">
 										<div class="percentage" style="width:{{ personal_skills.percentage }}%;"></div>
-									</div>
+									</div> -->
 								</li>
 								{%- endfor -%}
-								
+
 							</ul>
 						</div>
 
 					</div>
 					<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 
-						<!-- title -->
+						<!-- title
 						<div class="title"><span>Professional</span> Skills</div>
 
-						<!-- skills -->
 						<div class="skills-list card-box">
 							<ul>
 								{%- for personal_skills in site.personal_skills -%}
-								<li> 
+								<li>
 									<div class="name">{{ personal_skills.name }}</div>
 									<div class="progress">
 										<div class="percentage" style="width:{{ personal_skills.percentage }}%;"></div>
 									</div>
 								</li>
 								{%- endfor -%}
-								
+
 							</ul>
-						</div>
+						</div> -->
 
 					</div>
 				</div>
 			</div>
 
 		</div>
-		
+
 	</div>
 </div>

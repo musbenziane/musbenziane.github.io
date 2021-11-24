@@ -106,7 +106,7 @@ header:
 ########### Home Card #####################################################
 ###########################################################################
 
-home_style:  "video-bg" #'background-image' # background-image (default), "background-color", "particles-bg", "video-bg"
+home_style: 'background-image' # background-image (default), "background-color", "particles-bg", "video-bg"
 
 first_name: Mus
 last_name: Benziane

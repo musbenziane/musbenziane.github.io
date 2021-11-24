@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="/css/magnific-popup.css" />
 	<link rel="stylesheet" href="/css/animate.css" />
 	<link rel="stylesheet" href="/css/simplebar.css" />
+	<!-- <link rel="stylesheet" href="/css/videobg.css" /> -->
 
 	<!-- theme colors -->
 	<link rel="stylesheet" href="https://www.musbenziane.me/css/theme-colors/orange.css" />
@@ -175,7 +176,7 @@
     <div class="container"><!--
 	Card - Started
 -->
-<div class="card-inner card-started active" id="home-card"><div class="slide" style="background-image: url(/images/bg.jpg);"></div><div class="centrize full-width">
+<div class="card-inner card-started active" id="home-card"><div id="video-bg" class="slide" data-property="{videoURL:'https://youtu.be/DG9VEQX2lBk', containment:'#video-bg', showControls:false, autoPlay:true, loop:true, mute:false, startAt:0, opacity:1, addRaster:true, quality:'default'}"></div><div class="centrize full-width">
 		<div class="vertical-center">
 
 			<!-- Started titles -->
@@ -200,8 +201,10 @@
 		-->
 		<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
 
-			<!-- About Image -->
-			<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/bg.gif);"></div>
+			<!-- About Image	-->
+			<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/bg.jpg);"></div>
+
+
 
 			<!--
 				Inner Top
@@ -272,10 +275,11 @@
 							<p>Programming.</p>
 						</div>
 					</div></div>
+				<!--
 				<div style="width:650px; margin:0 auto;">
 					<small align="justify">The animation on this page, as well as the screenshot from the landing page were produced using a SEM solver developped by Jian Cao at Seiscope.
 					The model used is a portion of a slice from the SEAM ARID model.</small>
-				</div>
+				</div> -->
 
 			</div>
 			<!--
@@ -1070,7 +1074,7 @@
 	<script src="/js/masonry.pkgd.js"></script>
 	<script src="/js/masonry-filter.js"></script>
 	<script src="/js/simplebar.js"></script>
-	<script src="/js/typed.js"></script><!--
+	<script src="/js/typed.js"></script><script src="/js/jquery.mb.YTPlayer.js"></script><!--
 		Google map api
 	-->
 	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>

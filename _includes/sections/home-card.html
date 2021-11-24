@@ -9,7 +9,7 @@
 	{%- elsif site.home_style == 'particles-bg' -%}
 		<div id="particles-bg" class="slide" style="background-image: url({{ 'images/bg.jpg'| relative_url }});"></div>
 	{%- elsif site.home_style == 'video-bg' -%}
-		<div id="video-bg" class="slide" data-property="{videoURL:'https://youtu.be/DG9VEQX2lBk', containment:'#video-bg', showControls:false, autoPlay:true, loop:true, mute:false, startAt:0, opacity:1, addRaster:true, quality:'default'}"></div>
+		<div id="video-bg" class="slide" data-property="{videoURL:'https://youtu.be/DG9VEQX2lBk', containment:'#video-bg', showControls:false, autoPlay:true, loop:true, mute:false, startAt:0, opacity:.7, addRaster:false, quality:'default'}"></div>
 	{%- else -%}
 		<div class="slide" style="background-image: url({{ 'images/bg.jpg' | relative_url }});"></div>
 	{%- endif -%}

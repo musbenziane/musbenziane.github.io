@@ -32,7 +32,7 @@
 							{%- for social_link in site.social_link -%}
 								<a href="{{ social_link.link }}"{%- if  social_link.url != "#" -%} target="__blank"{%- endif -%}>
 									{%- if  social_link.text -%}<span>{%- endif -%}
-										<i class="icon la la-{{ social_link.name }}"></i>{{ social_link.text }}
+										<i class="icon lab la-{{ social_link.name }}"></i>{{ social_link.text }}
 									{%- if  social_link.text -%}</span>{%- endif -%}
 								</a>
 							{%- endfor -%}

@@ -130,7 +130,7 @@ social_link:
     text: ""
     link: "https://github.com/musbenziane"
 
-  - name: linkedin
+  - name: linkedin-in
     text: ""
     link: "https://www.linkedin.com/in/mustaphabenz/"
 
@@ -138,7 +138,7 @@ social_link:
     text: ""
     link: "https://www.instagram.com/mus_benziane/"
 
-  - name: book
+  - name: goodreads-g
     text: ""
     link: "https://www.goodreads.com/user/show/98784435-mustapha-benziane"
 

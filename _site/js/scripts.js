@@ -81,7 +81,7 @@ $(function () {
 					lines_grid.addClass('loaded');
 					$(card_items).removeClass('active');
 					$(card_item).addClass('active');
-				}, 1000);
+				}, 720);
 			}
 		
 			return false;

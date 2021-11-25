@@ -122,9 +122,6 @@ professions:
 author_description: "<strong>Hello, I’m Mus</strong>, I'm currently a student at the University of Grenoble Alpes in France, doing a research Masters in Geophysics. I'm interested in computational geophysics and high performance computing.
 Currently, I am actively looking for a Ph.D. position for next year."
 social_link:
-  - name: download
-    text: "Download CV"
-    link: "https://www.musbenziane.me/files/musbenziane_resume_v1.pdf"
 
   - name: github
     text: ""

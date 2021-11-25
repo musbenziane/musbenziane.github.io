@@ -29,6 +29,7 @@
 							</p>
 						</div>
 						<div class="circle-bts">
+
 							{%- for social_link in site.social_link -%}
 								<a href="{{ social_link.link }}"{%- if  social_link.url != "#" -%} target="__blank"{%- endif -%}>
 									{%- if  social_link.text -%}<span>{%- endif -%}
@@ -36,6 +37,7 @@
 									{%- if  social_link.text -%}</span>{%- endif -%}
 								</a>
 							{%- endfor -%}
+							<a target="_blank" href="https://www.musbenziane.me/files/musbenziane_resume_v1.pdf" title="Download CV"><span class="las la-cloud-download-alt"></span></a>
 
 						</div>
 					</div>

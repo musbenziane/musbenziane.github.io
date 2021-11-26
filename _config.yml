@@ -248,10 +248,14 @@ clients:
 ############ My Experience ###################
 
 my_experience:
+  - name: "Upcoming Project"
+    date: February-2022-July-2022 <span>|</span> ISTerre.
+    description: "Time-dependent Receiver Relocalization Strategy for Full Waveform Inversion."
+
   - name: "Research Intern"
     date: May-2021-July-2021 <span>|</span> ISTerre.
-    description: "
-Seismic Elastic Modeling in Land Setting with Complex Near Surface, using the SEAM ARID model and a SEM 2D Solver."
+    description: "Seismic Elastic Modeling in Land Setting with Complex Near Surface, using the SEAM ARID model and a SEM 2D Solver."
+    
   - name: "Geophysicist, Engineer"
     date: "2017-2020 <span>|</span> GeoEXplo dz."
     description: "&#8226; Acquisition, processing, interpretation and reporting of near surface Geophysical data.

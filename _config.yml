@@ -250,7 +250,9 @@ clients:
 my_experience:
   - name: "Upcoming Project"
     date: February-2022-July-2022 <span>|</span> ISTerre.
-    description: "Time-dependent Receiver Relocalization Strategy for Full Waveform Inversion."
+    description: "Time-dependent Receiver Relocalization Strategy for Full Waveform Inversion.
+    <br> <small>Supervised by Professors:<br>
+    Ludovic Métivier, LJK | Romain Brossier, ISTerre</small>"
 
   - name: "Research Intern"
     date: May-2021-July-2021 <span>|</span> ISTerre.
@@ -285,6 +287,9 @@ personal_skills:
     percentage: '85'
 
 professional_skills:
+  - name: 'Seismic Imaging'
+    percentage: '90'
+
   - name: 'Spectral Elements Method'
     percentage: '90'
 

@@ -256,7 +256,9 @@ my_experience:
 
   - name: "Research Intern"
     date: May-2021-July-2021 <span>|</span> ISTerre.
-    description: "Seismic Elastic Modeling in Land Setting with Complex Near Surface, using the SEAM ARID model and a SEM 2D Solver."
+    description: "Seismic Elastic Modeling in Land Setting with Complex Near Surface, using the SEAM ARID model and a SEM 2D Solver.
+    <br> <small>Supervised by Professor: <br>
+    Romain Brossier, ISTerre</small>"
 
   - name: "Geophysicist, Engineer"
     date: "2017-2020 <span>|</span> GeoEXplo dz."

@@ -385,6 +385,11 @@ portfolios:
     type: image
 
   - category: 'Non-Fiction'
+    image: 'images/works/sapiens.jpg'
+    name: 'Sapiens, A Brief History of Humankind'
+    type: image
+
+  - category: 'Non-Fiction'
     image: 'images/works/dawk.jpg'
     name: 'The Selfish Gene'
     type: image

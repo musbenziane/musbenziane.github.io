@@ -288,8 +288,7 @@ personal_skills:
     percentage: '85'
 
 professional_skills:
-  - name: 'Seismic Imaging'
-    percentage: '90'
+
 
   - name: 'Spectral Elements Method'
     percentage: '90'

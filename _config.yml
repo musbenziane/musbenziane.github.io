@@ -309,8 +309,8 @@ professional_skills:
 #############################################
 portfolio_categories:
 
-  - name: "Textboooks"
-    slug: "Textboooks"
+  - name: "Textbooks"
+    slug: "Textbooks"
   - name: "Non-Fiction"
     slug: "Non-Fiction"
   - name: "Fiction"
@@ -323,37 +323,37 @@ portfolio_categories:
 
 portfolios:
 
-  - category: 'Textboooks'
+  - category: 'Textbooks'
     image: 'images/works/leveque.jpg'
     name: 'Finite Volume Methods for Hyperbolic Problems - Leveque 2002'
     type: image
 
-  - category: 'Textboooks'
+  - category: 'Textbooks'
     image: 'images/works/nocedal.jpg'
     name: 'Numerical Optimization - Nocedal, Wright 2006'
     type: image
 
-  - category: 'Textboooks'
+  - category: 'Textbooks'
     image: 'images/works/hesthaven.jpeg'
     name: 'Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and Applications - Hesthaven, Warburton 2008'
     type: image
 
-  - category: 'Textboooks'
+  - category: 'Textbooks'
     image: 'images/works/moczo.jpg'
     name: 'The Finite-Difference Modelling of Earthquake Motions: Waves and Ruptures - Moczo, Kristek, Gális 2014'
     type: image
 
-  - category: 'Textboooks'
+  - category: 'Textbooks'
     image: 'images/works/igel.jpg'
     name: 'Computational Seismology: A Practical Introduction - Igel 2016'
     type: image
 
-  - category: 'Textboooks'
+  - category: 'Textbooks'
     image: 'images/works/aster.png'
     name: 'Parameter Estimation and Inverse Problems - Aster, Borchers, Thurber 2018'
     type: image
 
-  - category: 'Textboooks'
+  - category: 'Textbooks'
     image: 'images/works/menke.png'
     name: 'Geophysical Data Analysis: Discrete Inverse Theory - Menke 2018'
     type: image

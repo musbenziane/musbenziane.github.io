@@ -249,7 +249,7 @@ clients:
 my_experience:
   - name: "Upcoming Project"
     date: February-2022-July-2022 <span>|</span> ISTerre.
-    description: "Time-dependent Receiver Relocalization Strategy for Full Waveform Inversion.
+    description: "Receiver-extension strategy for time-domain full-waveform inversion using a time-dependent relocalization approach.
     <br> <small>Supervised by Professors:<br>
     Ludovic Métivier, LJK | Romain Brossier, ISTerre</small>"
 

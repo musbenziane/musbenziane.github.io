@@ -113,13 +113,13 @@ last_name: Benziane
 email: benzianm@etu.univ-grenoble-alpes.fr
 phone:
 address: Grenoble, France.
-freelance_hire: true
+freelance_hire: false
 professions:
   - a Geophysicist
   - a new Researcher - to be
-  - Looking for a PhD studentship
 
-author_description: "<strong>Hello, I’m Mus</strong>, I'm currently a student at the University of Grenoble Alpes in France, doing a research Masters in Geophysics. I'm interested in computational geophysics and high performance computing. I am actively looking for a Ph.D. position for next year."
+
+author_description: "<strong>Hello, I’m Mus</strong>, I'm currently a student at the University of Grenoble Alpes in France, doing a research Masters in Geophysics. I'm interested in computational geophysics and high performance computing."
 social_link:
 
   - name: github

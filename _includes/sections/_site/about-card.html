@@ -1,0 +1,176 @@
+<!--
+	Card - About
+-->
+<div class="card-inner" id="about-card">
+	<div class="row card-container">
+
+		<!--
+			Card Wrap
+		-->
+		<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+			<!-- About Image	-->
+			<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/bg.jpg);"></div>
+
+
+
+			<!--
+				Inner Top
+			-->
+			<div class="content inner-top">
+				<div class="row">
+					<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+						<div class="title-bg">About Me</div>
+						<div> <img src="https://www.musbenziane.me/images/musbenziane.png" alt="Mustpaha Benziane" style="width:128px;height:128px;"></div>
+
+						<div class="text">
+							<p>
+								{{ site.author_description }}
+							</p>
+						</div>
+						<div class="circle-bts">
+
+							{%- for social_link in site.social_link -%}
+								<a href="{{ social_link.link }}"{%- if  social_link.url != "#" -%} target="__blank"{%- endif -%}>
+									{%- if  social_link.text -%}<span>{%- endif -%}
+										<i class="icon lab la-{{ social_link.name }}"></i>{{ social_link.text }}
+									{%- if  social_link.text -%}</span>{%- endif -%}
+								</a>
+							{%- endfor -%}
+							<a target="_blank" href="https://www.musbenziane.me/files/musbenziane_resume_v1.pdf" title="Download CV"><span class="las la-cloud-download-alt"></span></a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--
+				Services
+			-->
+			<div class="content services">
+				<div class="row">
+					<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+						<!-- title -->
+						<div class="title"><span>My </span> Interests</div>
+
+					</div>
+				</div>
+
+				<div class="row service-items">
+					{%- for our_services in site.our_services -%}
+					<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+						<div class="service-item card-box">
+							<div class="icon"><i class="{{ our_services.icon }}"></i></div>
+							<div class="name">{{ our_services.names }}</div>
+							<p>{{ our_services.description }}</p>
+						</div>
+					</div>
+					{%- endfor -%}
+
+				</div>
+				<!--
+				<div style="width:650px; margin:0 auto;">
+					<small align="justify">The animation on this page, as well as the screenshot from the landing page were produced using a SEM solver developped by Jian Cao at Seiscope.
+					The model used is a portion of a slice from the SEAM ARID model.</small>
+				</div> -->
+
+			</div>
+			<!--
+				Price Tables
+
+			<div class="content pricing">
+				<div class="row">
+					<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+
+						<div class="title"><span>Pricing</span> Tables</div>
+
+					</div>
+				</div>
+
+				<div class="row pricing-items">
+
+					{%- for pricing_table in site.pricing_table -%}
+					<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+						<div class="pricing-item card-box">
+							<div class="icon"><i class="la la-tachometer"></i></div>
+							<div class="name">{{ pricing_table.name }}</div>
+							<div class="amount">
+								<span class="dollar">$</span>
+								<span class="number">{{ pricing_table.price }}</span>
+								<span class="period">hour</span>
+							</div>
+							<div class="feature-list">
+								<ul>
+									{{ pricing_table.lines }}
+								</ul>
+							</div>
+							<div class="lnks">
+								<a href="{{ pricing_table.url }}" class="lnk">Buy <span>Basic</span></a>
+							</div>
+						</div>
+					</div>
+					{%- endfor -%}
+
+				</div>
+
+			</div>
+
+
+			<div class="content fuct">
+				<div class="row">
+					<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+						<div class="title"><span>Fun</span> Facts</div>
+
+					</div>
+				</div>
+
+
+				<div class="row fuct-items">
+					{%- for fun_facts in site.fun_facts -%}
+					<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+						<div class="fuct-item card-box">
+							<div class="icon"><i class="{{ fun_facts.icon }}"></i></div>
+							<div class="name">{{ fun_facts.name }}</div>
+						</div>
+					</div>
+					{%- endfor -%}
+				</div>
+
+			</div>
+
+
+			<div class="content clients">
+				<div class="row">
+					<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+						<div class="title"><span>Our</span> Clients</div>
+
+					</div>
+				</div>
+
+				<div class="row client-items">
+
+					{%- for client in site.clients -%}
+					<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+						<div class="client-item card-box">
+							<div class="image">
+								<a target="_blank" href="{{ client.url }}">
+									<img src="{{ client.image }}" alt="{{ client.name }}" />
+								</a>
+							</div>
+						</div>
+					</div>
+					{%- endfor -%}
+									-->
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>

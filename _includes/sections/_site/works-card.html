@@ -1,0 +1,89 @@
+			<!--
+				Card - Works
+			-->
+			<div class="card-inner" id="works-card">
+				<div class="row card-container">
+
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- Work Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/library-bg-credit-janko-ferlic.jpg);"></div>
+
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">My Reads</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!--
+							Works
+						-->
+						<div class="content works">
+
+							<div class="row">
+								<div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+									<!-- title -->
+									<div class="title"><span>Books</span> I like</div>
+
+								</div>
+
+								<div class="col col-m-12 col-t-7 col-d-7 col-d-lg-7">
+
+									<!-- filters -->
+									<div class="filter-menu filter-button-group">
+										<div class="f_btn active">
+											<label><input type="radio" name="fl_radio" value="grid-item" />All</label>
+										</div>
+										{%- for portfolio_categories in site.portfolio_categories -%}
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="{{ portfolio_categories.slug }}" />{{ portfolio_categories.name }}</label>
+										</div>
+										{%- endfor -%}
+									</div>
+
+
+
+
+
+								</div>
+
+							</div>
+
+							<!-- work items -->
+							<div class="row grid-items">
+
+								{%- for portfolio in site.portfolios -%}
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item {{ portfolio.category }}">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="{{ portfolio.image | relative_url }}" class="has-popup-image">
+												<img src="{{ portfolio.image | relative_url }}" alt="" />
+												<span class="info">
+													<span class="icon la la-camera-retro"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="{{ portfolio.image | relative_url }}" class="name has-popup-image">{{ portfolio.name }}</a>
+											<div class="category">{{ portfolio.category | camelize  }}</div>
+										</div>
+									</div>
+								</div>
+								{%- endfor -%}
+								<!-- work item photo -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>

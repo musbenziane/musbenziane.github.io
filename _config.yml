@@ -247,6 +247,13 @@ clients:
 ############ My Experience ###################
 
 my_experience:
+
+  - name: "PhD student - Research/teaching assitant"
+    date: September-2022-present <span>|</span> ISTerre.
+    description: "Receiver-extension strategy for time-domain full-waveform inversion using a time-dependent relocalization approach.
+    <br> <small>Supervised by Professors:<br>
+    Ludovic Métivier, LJK | Romain Brossier, ISTerre</small>"
+
   - name: "Research Intern"
     date: February-2022-July-2022 <span>|</span> ISTerre.
     description: "Receiver-extension strategy for time-domain full-waveform inversion using a time-dependent relocalization approach.

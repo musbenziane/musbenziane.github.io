@@ -1,8 +1,3 @@
 <pre>
-This repo is for my personal website on github pages. Please do not clone as I do not 
-own the rights for the code.
-If you like the theme, you can head over to Themeforest and you can find pretty affordable
-and similar ones.
-
-
+This website is no longer maintained, request are redirected to www.mbenziane.fr, the domain name name: musbenziane.me will no longer exist as of November 2024.
 </pre>
